@@ -1,0 +1,31 @@
+1.Create .gitignore file - Initially we need to create a .gitignore file
+
+2. git init - To initilaize a git from the server
+
+3. git remote add origin git@bitbucket.org:test/test.git - To add the repo in the server
+
+4. git add . - To add the repository in a current directory.
+
+5. git commit -m "Initial Commit" - Add the first commit from the server to repo.
+
+6. git push -u origin master - To Push the files to master branch
+
+7. git checkout -b branch_name - If the branch is not created before, we should run this command then the branch will be created locally.Once it is done, we need to run the git push -u origin branch_name.
+
+git remoteTo Switch from one branch to another branch
+
+8. git branch - To list all the branches.
+
+9. git pull origin branch_name - To pull the code from the bitbucket to server
+
+10. git push origin branch_name - To push the code from the server to bitbucket repository
+
+11. git remote -v - to check the git configuration file.
+
+12. git remote set-url origin  git@bitbucket.org:test/test2.git - To change the git remote url from https to ssh
+
+13. git remote add origin Git_url - To set the remote url for first time    
+
+
+git config --global user.name "vinoth"
+git config --global user.email "vinothooo@gmail.com"
